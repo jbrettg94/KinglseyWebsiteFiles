@@ -228,6 +228,7 @@ a {
 .navicons {
 	display: flex;
 	position: relative;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     text-align: center;
@@ -256,6 +257,7 @@ a {
 	 overflow: hidden;
 	 border: solid 3px #ffffff;
 	 z-index: 2;
+     flex-wrap: wrap;
 }
 
 .navicons li a .fa {
