@@ -11,6 +11,14 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+footer {
+    background-color: black;
+    height: 200px;
+    width: 150%;
+    margin-top: 50px;
+    margin-left: -25%;
+    margin-right: auto;
+}
 .fixed-nav-bar {
     position: fixed;
     top: 0;
@@ -25,5 +33,12 @@ body {
 .fixed-nav-bar > a {
     padding-right: 20px;
     font-family: FugazOne;
+    font-size: 16pt;
     color: rgb(211, 25, 111);
+}
+.homelogo {
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
