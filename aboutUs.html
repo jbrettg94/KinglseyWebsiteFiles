@@ -6,43 +6,28 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>About Me</title>
             <link rel="stylesheet" href="style.css">
-            <style>
-                .downloadcaption {
-                font-size: 100px;
-                color: Pink;
-                margin-top: -50%;
-                text-align: center;
-                opacity: 0;
-                }
-                .resumefigure:hover > .resumeimage {
-                    opacity: 0.5;
-                    z-index: -1;
-                }
-                .resumefigure:hover > .downloadcaption {
-                    opacity: 1;
-                    background-color: gray;
-                    position: relative;
-                    z-index: 2;
-                }
-                .resumelink:hover {
-                    text-decoration: none;
-                }
-
-
-                
-            </style>
         </head>
             
         <body>
-            <a href="www.kingsleywentink.com" class="resumelink">
-                <figure class="resumefigure" width="50%">
-                    <img class="resumeimage" src="https://www.dropbox.com/s/rqeregmsb7f2hcm/Kingsley%20Resume%202021.jpg?raw=1" width="100%"/>
-                    <figcaption class="downloadcaption">Download</figcaption>
-                </figure>
-            </a>
+            <nav class="fixed-nav-bar">
+                <a href="index.html">Home</a>
+                <a href="aboutUs.html">About</a>
+                <a>Animations</a>
+                <a>Characters</a>
+                <a>Environments</a>
+                <a>Digital</a>
+                <a>Traditional</a>
+                <a>Storyboards</a>
+                <a>3D Models</a>
+            </nav>
+            
+            <div class="resumefigure">
+                <a href="files/KingsleyResume2021.pdf" class="resumelink" target="_blank">
+                <img class="resumeimage" src="images/resumepicture.jpg" width="100%"/>
+                <span class="downloadcaption">Download</span>
+                </a>
+            </div>
+        
         
         </body>
-        <footer>
-            
-        </footer>
     </html>
