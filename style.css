@@ -193,8 +193,100 @@ a {
 
 .footernav {
     background-color: black;
-    width: 110%;
+    width: 100%;
     height: 200px;
-    margin: 75px -20px -20px -20px;
+    margin: 75px 0 -20px -10px;
     bottom: 0;
+}
+
+
+
+
+
+
+
+/**NEW CSS HERE**/
+
+
+.navicons {
+	display: flex;
+	position: relative;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.navicons li {
+	list-style: none ;
+    padding-left: 20px;
+}
+
+ .navicons li a {
+	 width: 75px; 								
+	 height: 75px;								 
+	 background-color: #FFFFFF; 					
+	 text-align: center; 
+	 font-size: 60px; 							
+	 line-height: 75px; 						
+     margin: 0 10px; 							
+	 display: block; 
+	 border-radius: 50%;						 
+	 position: relative;
+	 overflow: hidden;
+	 border: solid 3px #ffffff;
+	 z-index: 2;
+}
+
+.navicons li a .fa {
+	position: relative;
+	color: #262626; 				/*  لون الايقونة الاساسى */
+	transition: .5s;
+	z-index: 3;
+}
+
+.navicons li a:hover .fa {
+	color: #FFFFFF; 				/* لون الايقونة بعد الهوفر */
+	transform: rotateY(360deg);
+}
+
+
+.navicons li a:before {
+	content: '';
+	position: absolute;
+	top: 100% ;
+	left: 0% ;
+	width: 100%;
+	height: 100%;
+	background-color: #FF0000;
+	transition: .5s;
+	z-index:1 ;
+}
+
+.navicons li a:hover:before {
+	top: 0 ;
+}
+
+
+.navicons li:nth-child(1) a:before {
+	background-color:#3b5999 ; /* الفيس بوك*/
+}
+
+.navicons li:nth-child(2) a:before {
+	background-color:#55acee ; /* تويتر */
+}
+
+.navicons li:nth-child(3) a:before {
+	background-color:#cd201f ; /* اليوتيوب */
+}
+
+.navicons li:nth-child(4) a:before {
+	background-color:#dd4b39 ; /* جوجل بلس */
+}
+
+.navicons li:nth-child(5) a:before {
+	background-color:#0077B5 ; /* لينكد ان */
 }
