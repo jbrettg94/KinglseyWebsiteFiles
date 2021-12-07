@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 .fixed-nav-bar {
     position: fixed;
@@ -37,6 +37,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 a {
     text-decoration: none;
@@ -53,7 +54,7 @@ a {
     color: rgb(211, 25, 111);
     text-align: center;
     opacity: 0;
-    background-color: gray;
+    background-color: white;
     left: 0;
     right: 0;
     margin-left: 0;
@@ -66,7 +67,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    width: 50%;
+    width: 40%;
 }
 .resumeimage {
     width: 100%;
@@ -75,8 +76,8 @@ a {
     opacity: 0.5;
 }
 .resumelink:hover > .downloadcaption {
-    opacity: 1;
-    background-color: gray;
+    opacity: .8;
+    background-color: white;
 }
 .resumelink:hover {
     text-decoration: none;
