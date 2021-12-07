@@ -3,8 +3,26 @@
     src: url(FugazOne-Regular.ttf);
 }
 h1 {
-    color: blue;
     text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 39px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    
+}
+.headerdiv {
+    position: absolute;
+    z-index: 1;
+    text-align-last: center;
+    width: 100%;
+}
+.blackline {
+    background-color: black;
+    width: 60px;
+    margin-top: 0;
+    border: none;
+    height: 1px;            
 }
 body {
     background-image: url(images/background_image_green.jpg);            
@@ -81,4 +99,29 @@ a {
 }
 .resumelink:hover {
     text-decoration: none;
+}
+
+
+
+
+.video-gallery {
+    margin: 15px 15px 15px 15px;
+    border-radius: 20px;
+    flex-shrink: 2;
+}
+.video-gallery-div {
+    background-image: url("https://dl.dropboxusercontent.com/s/y4ftf6wv1k31l07/Website%20Background.jpg?dl=0");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    gap: 10px;
+    z-index: 0;
 }
