@@ -243,13 +243,13 @@ a {
 
 .navicons li a .fa {
 	position: relative;
-	color: #262626; 				/*  لون الايقونة الاساسى */
+	color: #262626; 				
 	transition: .5s;
 	z-index: 3;
 }
 
 .navicons li a:hover .fa {
-	color: #FFFFFF; 				/* لون الايقونة بعد الهوفر */
+	color: #FFFFFF; 				
 	transform: rotateY(360deg);
 }
 
@@ -272,21 +272,21 @@ a {
 
 
 .navicons li:nth-child(1) a:before {
-	background-color:#3b5999 ; /* الفيس بوك*/
+	background-color:#3b5999 ; 
 }
 
 .navicons li:nth-child(2) a:before {
-	background-color:#55acee ; /* تويتر */
+	background-color:#55acee ; 
 }
 
 .navicons li:nth-child(3) a:before {
-	background-color:#cd201f ; /* اليوتيوب */
+	background-color:#cd201f ; 
 }
 
 .navicons li:nth-child(4) a:before {
-	background-color:#dd4b39 ; /* جوجل بلس */
+	background-color:#dd4b39 ; 
 }
 
 .navicons li:nth-child(5) a:before {
-	background-color:#0077B5 ; /* لينكد ان */
+	background-color:#0077B5 ; 
 }
