@@ -9,7 +9,7 @@ h1 {
     font-size: 39px;
     font-weight: normal;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 150px;
     
 }
 h2 {
@@ -47,6 +47,7 @@ body {
     background-size: 100% 100%;
     width: 100%;
     min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 0;
@@ -54,6 +55,7 @@ body {
     padding-right: 0;
     padding-bottom: 0;
     margin: auto 0 10px 0;
+    flex: 1;
 }
 .fixed-nav-bar {
     position: relative;
@@ -96,7 +98,7 @@ body {
     margin-right: auto;
 }
 .homevideo {
-    margin: 50px auto 50px auto;
+    margin: 50px auto 200px auto;
 }
 a {
     text-decoration: none;
@@ -125,7 +127,7 @@ a {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-top: 50px;
     width: 40%;
 }
@@ -152,12 +154,12 @@ a {
     flex-shrink: 2;
 }
 .video-gallery-div {
-    background-image: url(images/background_image_green.jpg);
+    /*background-image: url(images/background_image_green.jpg);*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    padding-top: 120px;
+    padding-top: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,6 +168,7 @@ a {
     align-content: space-around;
     gap: 10px;
     z-index: 0;
+    margin-bottom: 200px;
 }
 
 
@@ -180,59 +183,65 @@ a {
 }
 .image-gallery-div {
     width: 98%;
+    min-height: 100vh;
     height: 100%;
-    padding-top: 120px;
+    padding-top: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
-    align-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
     gap: 10px;
     z-index: 0;
     color: #fff;
+    margin-bottom: 200px;
 }
 
 
 
 .aboutmediv {
-    margin: 150px auto 150px 200px;
+    margin: 150px auto 150px auto;
     display: flex;
+    width: 75%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    align-content: space-around;
-    gap: 10px;
-    z-index: 0;
+    align-content: stretch;
+    row-gap: 100px;
+    column-gap: 75px;
 }
 .aboutmepic {
-    width: 25%;
-    margin: 15px 15px 15px 15px;
+    width: 30%;
+    /*margin: 15px 15px 15px 15px;*/
+    flex: 1;
+    flex-shrink: 1;
 }
 .aboutmetext {
-    margin: 15px 15px 15px 15px;
-    padding-left: 125px;
+    /*margin: 15px 15px 15px 15px;*/
+    /*padding-left: 125px;*/
     flex-shrink: 2;
     font-size: 18pt;
     color: white;
-    width: 50%;
+    /*width: 50%;*/
     line-height: 50px;
     letter-spacing: 2px;
+    flex: 2;
 
 }
-
 
 
 .footernav {
     background-color: black;
     width: 100%;
     height: 0;
-    margin: 200px 0 0 0;
+    margin: 0 0 0 0;
     bottom: 0;
     position: relative;
     padding-left: 0;
     padding-bottom: 0;
+  display: table-footer-group;
 }
 
 
